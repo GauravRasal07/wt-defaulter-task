@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  overflow-x: hidden;
+}
+
+nav {
+  height: 10vh;
+}
+
+.nav-item {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 700;
+  color: cadetblue !important;
+}
+
+.hero-section {
+  background-image: url("../images/hero.jpg");
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+}
+
+.hero-text h1 {
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.hero-text p {
+  color: #f7f7f7;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.reg-cont,
+.log-cont {
+  width: 30%;
+  margin-left: 35%;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.reg-form button,
+.log-form button {
+  float: right;
+  background-color: cadetblue;
+}
